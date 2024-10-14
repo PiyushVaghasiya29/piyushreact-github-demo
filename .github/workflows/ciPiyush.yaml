@@ -15,7 +15,7 @@ jobs:
           node-version: 18
       - name: Install dependancies
         run: 
-          npm ci
+          npm install
         working-directory: ./piyush_assign2
       - name: Run tests
         run: 
