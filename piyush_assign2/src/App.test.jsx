@@ -6,7 +6,7 @@ describe('MainContent', () => {
   it('should render a button', () => {
     render(<App />);
 
-    expect(screen.getByText('Hello Varshil')).toBeInTheDocument();
+    expect(screen.getByText('Hello Piyush')).toBeInTheDocument();
   });
 
 });
